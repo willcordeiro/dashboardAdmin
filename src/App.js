@@ -64,11 +64,11 @@ const App = () => {
             <Route path="/" element={<Ecommerce />} />
             <Route path="/ecommerce" element={<Ecommerce />} />
             {/*pages */}
-            <Route path="/orders" element={<Orders />} />{" "}
+            <Route path="/orders" element={<Orders />} />
             <Route path="/employees" element={<Employees />} />
             <Route path="/customers" element={<Customers />} />
             {/*app */}
-            <Route path="/kanban" element={<Kanban />} />{" "}
+            <Route path="/kanban" element={<Kanban />} />
             <Route path="/editor" element={<Editor />} />
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/color-picker" element={<ColorPicker />} />
