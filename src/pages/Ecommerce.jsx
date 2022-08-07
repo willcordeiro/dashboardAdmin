@@ -75,33 +75,45 @@ const Ecommerce = () => {
               </p>
             </div>
           </div>
-          <div className="mt-10 flex-gap-10 flex-wrap justify-center">
-            <div className="border-r-1 border-color m-4 pr-10">
-              <div className="mt-8">
+          <div className="mt-10 flex gap-10 flex-wrap justify-center">
+            <div className=" border-r-1 border-color m-4 pr-10">
+              <div>
                 <p>
-                  <span className="text-3xl font-semibold">$250,879</span>
+                  <span className="text-3xl font-semibold">$250,986</span>
                   <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
-                    48%
+                    23%
                   </span>
                 </p>
                 <p className="text-gray-500 mt-1">Budget</p>
               </div>
-              <div>
-                <p>
-                  <span className="text-3xl font-semibold">$50,879</span>
-                </p>
+              <div className="mt-8">
+                <p className="text-3xl font-semibold">$61,876</p>
+
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
+
               <div className="mt-5">
                 <SparkLine
                   currentColor="blue"
-                  id="line-sparkline"
-                  tupe="Line"
+                  id="line-sparkLine"
+                  type="Line"
                   height="80px"
                   width="250px"
                   data={SparklineAreaData}
+                  color="blue"
                 />
               </div>
+              <div className="mt-10">
+                <Button
+                  color="white"
+                  bgColor="blue"
+                  text="Download Report"
+                  borderRadius="10px"
+                />
+              </div>
+            </div>
+            <div>
+              <Stacked width="320px" height="360px" />
             </div>
           </div>
         </div>
