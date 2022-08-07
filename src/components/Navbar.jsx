@@ -93,9 +93,7 @@ const Navbar = () => {
               {" "}
               <span className="text-gray-400 text-14">Hi, </span> {""}
             </p>
-            <span className="text-gray-400 font-bold ml-1 text-14">
-              William
-            </span>
+            <span className="text-gray-400 font-bold ml-1 text-14">User</span>
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>
         </TooltipComponent>
