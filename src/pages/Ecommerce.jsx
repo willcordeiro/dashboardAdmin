@@ -94,13 +94,13 @@ const Ecommerce = () => {
 
               <div className="mt-5">
                 <SparkLine
-                  currentColor="blue"
+                  currentColor="red"
                   id="line-sparkLine"
                   type="Line"
                   height="80px"
                   width="250px"
                   data={SparklineAreaData}
-                  color="blue"
+                  color="red"
                 />
               </div>
               <div className="mt-10">
