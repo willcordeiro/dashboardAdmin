@@ -33,10 +33,9 @@ export const ContextProvider = ({ children }) => {
   const handleClick = (clicked) =>
     setIsClicked({ ...initialState, [clicked]: true });
 
-  const handleCancelClick = () => {
-    setIsClicked({ ...(initialState.cart = false) });
-    console.log("test");
-  };
+  function handleCancelClick(clicked) {
+    setIsClicked({ ...initialState, [clicked]: false });
+  }
 
   return (
     <StateContext.Provider

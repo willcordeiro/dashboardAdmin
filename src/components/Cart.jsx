@@ -12,16 +12,10 @@ const Cart = () => {
     <div className="bg-half-transparent w-full fixed nav-item top-0 right-0 ">
       <div className="float-right h-screen  duration-1000 ease-in-out dark:text-gray-200 transition-all dark:bg-[#484B52] bg-white md:w-400 p-8">
         <div className="flex justify-between items-center">
-          <button className="font-semibold text-lg">Shopping Cart</button>
-          <Button
-            icon={<MdOutlineCancel />}
-            color="rgb(153, 171, 180)"
-            bgHoverColor="light-gray"
-            size="2xl"
-            borderRadius="50%"
-            text="X"
-            customFunc={() => handleCancelClick()}
-          />
+          <button className="font-semibold text-lg ">Shopping Cart</button>
+          <button onClick={() => handleCancelClick("cart")}>
+            <MdOutlineCancel />
+          </button>
         </div>
         {cartData?.map((item, index) => (
           <div key={index}>
