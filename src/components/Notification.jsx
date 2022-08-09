@@ -15,7 +15,7 @@ const Notification = () => {
           <p className="font-semibold text-lg dark:text-gray-200">
             Notifications
           </p>
-          <button onClick={() => handleCancelClick("chat")}>
+          <button onClick={() => handleCancelClick("notification")}>
             <MdOutlineCancel />
           </button>
         </div>
