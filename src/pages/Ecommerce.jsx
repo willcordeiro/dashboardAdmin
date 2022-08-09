@@ -28,7 +28,7 @@ const Ecommerce = () => {
               color="white"
               bgColor={currentColor}
               text="Dawnload"
-              borderRadius="10px"
+              borderRadius="3px"
               size="md"
             />
           </div>
@@ -111,7 +111,7 @@ const Ecommerce = () => {
                   color="white"
                   bgColor={currentColor}
                   text="Download Report"
-                  borderRadius="10px"
+                  borderRadius="3px"
                 />
               </div>
             </div>

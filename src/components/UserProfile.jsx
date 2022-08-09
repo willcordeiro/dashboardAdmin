@@ -26,7 +26,7 @@ const UserProfile = () => {
         <div>
           <p className="font-semibold text-xl dark:text-gray-200">
             {" "}
-            Michael Roberts{" "}
+            User Profile{" "}
           </p>
           <p className="text-gray-500 text-sm dark:text-gray-400">
             {" "}
@@ -34,7 +34,7 @@ const UserProfile = () => {
           </p>
           <p className="text-gray-500 text-sm font-semibold dark:text-gray-400">
             {" "}
-            info@shop.com{" "}
+            UserProfile@gmail.com{" "}
           </p>
         </div>
       </div>
@@ -67,7 +67,7 @@ const UserProfile = () => {
           color="white"
           bgColor={currentColor}
           text="Logout"
-          borderRadius="10px"
+          borderRadius="3px"
           width="full"
         />
       </div>

@@ -59,7 +59,7 @@ const Chat = () => {
             color="white"
             bgColor={currentColor}
             text="See all messages"
-            borderRadius="10px"
+            borderRadius="3px"
             width="full"
           />
         </div>

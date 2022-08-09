@@ -52,7 +52,7 @@ const Notification = () => {
             color="white"
             bgColor={currentColor}
             text="See all notifications"
-            borderRadius="10px"
+            borderRadius="3px"
             width="full"
           />
         </div>

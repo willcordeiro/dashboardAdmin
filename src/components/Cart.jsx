@@ -61,7 +61,7 @@ const Cart = () => {
             color="white"
             bgColor={currentColor}
             text="Place Order"
-            borderRadius="10px"
+            borderRadius="3px"
             width="full"
           />
         </div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
@@ -9,7 +9,6 @@ import {
   Line,
   Calendar,
   Employees,
-  Stacked,
   Pyramid,
   Customers,
   Kanban,
@@ -18,7 +17,6 @@ import {
   Pie,
   Financial,
   ColorPicker,
-  ColorMapping,
   Editor,
 } from "./pages";
 
@@ -60,7 +58,7 @@ const App = () => {
             </div>
           )}
           <div
-            className={`dark:bg-main-dark-bg bg-main-bg min-h-screen w-full ${
+            className={`dark:bg-main-dark-bg bg-purple-50 min-h-screen w-full ${
               activeMenu ? "md:ml-72" : "flex-2"
             }`}
           >
